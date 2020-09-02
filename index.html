@@ -14,7 +14,14 @@
         <input type="text" id="street" name="street" placeholder="Strasse">
         <input type="text" id="number" name="number" placeholder="Nr.(opt.)"><br>
         <input type="text" id="zipCode" name="zipCode" pattern="\d{4}" placeholder="PLZ"/>
-        <input type="text" id="place" name="place" placeholder="Ort"><br>
+        <input list="locations" id="location" name="location" placeholder="Ort">
+        <datalist id="locations">
+          <option value="Aarau"></option>
+          <option value="Bern"></option>
+          <option value="Genf"></option>
+          <option value="Luzern"></option>
+          <option value="Zürich"></option>
+        </datalist>
         <input type="number" id="age" name="age" placeholder="Alter (opt.)">
         <input type="email" id="emailfield" name="emailfield" placeholder="Email-Adresse"/>      
         <input type="reset" id="reset" name="reset" value="Verwerfen">
