@@ -1,0 +1,57 @@
+fieldset{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+input{
+    margin-bottom: 5px;
+}
+#firstname{
+    width: 48%;
+    margin-right: 5px;
+}
+
+#lastname{
+    width: 48%;
+    margin-left: 5px;
+}
+
+#street{
+    width: 73%;
+    margin-right: 5px;
+}
+
+#number{
+    width: 23%;
+    margin-left: 5px;
+}
+
+#zipCode{
+    width: 18%;
+    margin-right: 5px;
+}
+
+#location{
+    width: 78%;
+    margin-left: 5px;
+}
+
+#age{
+    width: 18%;
+    margin-right: 5px;
+}
+
+#emailfield{
+    width: 78%;
+    margin-left: 5px;
+}
+
+#reset{
+    margin-left: 81.5%;
+    margin-right: 5px;
+}
+
+#submit{
+    margin-left: 5px;
+}
